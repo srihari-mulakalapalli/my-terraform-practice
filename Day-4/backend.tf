@@ -3,6 +3,6 @@ terraform {
     bucket         = "srihari-s3-demo" # change this
     key            = "srihari/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "terraform_lock"
+    dynamodb_table = "terraform-lock"
     }
 }
