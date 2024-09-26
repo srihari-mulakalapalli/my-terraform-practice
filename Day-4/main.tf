@@ -7,3 +7,7 @@ resource "aws_instance" "srihari" {
   instance_type = "t2.micro"
   subnet_id = "subnet-0d03a8b184eaad131"
 }
+
+resource "aws_s3_bucket" "s3_bucket" {
+    bucket = "srihari-s3-demo"  
+}
