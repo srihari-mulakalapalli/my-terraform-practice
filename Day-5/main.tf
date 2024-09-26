@@ -88,7 +88,7 @@ resource "aws_instance" "server" {
 
   # File provisioner to copy a file from local to the remote EC2 instance
   provisioner "file" {
-    source      = "D:\My-Terraform-Code\app.py"  # Replace with the path to your local file
+    source      = "C:/Users/HP/bin/app.py"  # Replace with the path to your local file
     destination = "/home/ubuntu/app.py"  # Replace with the path on the remote instance
   }
 
